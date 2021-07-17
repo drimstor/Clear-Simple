@@ -1172,8 +1172,6 @@ color: #AEB8D0;
 		
 		width: 90%;
 		margin: 0 auto;
-		
-		
 	}
 
 
@@ -1282,6 +1280,13 @@ color: #AEB8D0;
 	}
 	.header__nav.active {
 		padding-left: 0;
+	}
+
+	.header__btn {
+		display: none;
+	}
+	.header__logo {
+		margin-left: -15px;
 	}
 }
 
