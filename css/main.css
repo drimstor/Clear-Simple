@@ -1107,12 +1107,6 @@ color: #AEB8D0;
 
 /* ___________________________________________________________________ */
 
-@-moz-document url-prefix() {
-	.slider .slick-dots button {
-		height: 8px;
-	}
-
-}
 
 
 @media screen and (min-width: 1800px) {
@@ -1450,3 +1444,10 @@ color: #AEB8D0;
 		}
 		
 	}
+
+@-moz-document url-prefix() {
+	.slider .slick-dots button {
+		height: 8px;
+	}
+
+}
