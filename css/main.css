@@ -194,7 +194,7 @@ ul, li {
 	
 	background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
 	width: 100%;
-	height: 85vh;
+	height: 75vh;
 	z-index: 1;
 	
 }
@@ -331,13 +331,13 @@ ul, li {
 	display: flex;
 	justify-content: start;
 	align-items: flex-start;
-	
+	margin: 0 auto;
 	
 	
 }
 .desktop__text{
 	width: 50%;
-	margin-left: 150px
+	margin-left: 100px;
 }
 .desktop__img {
 	margin-top: -80px;
@@ -650,9 +650,6 @@ align-items: flex-end;
 	
 }
 
-@media (max-width:767px){
-	.wrapper{padding: 50px 10px;}
-}
 
 /* Основные стили */
 
@@ -676,9 +673,22 @@ align-items: flex-end;
 }
 
 @media (max-width:767px){
-	.slider {
-		padding: 0px 40px;
+
+	.wrapper{
+		padding: 50px 0px;
+		
 	}
+
+	
+	.slider {
+		padding: 0px 0px;
+	}
+
+	.slider .slick-arrow {
+		visibility: hidden;
+	}
+
+
 }
 
 .slider .slick-arrow{
@@ -690,6 +700,7 @@ align-items: flex-end;
 	width: 30px;
 	height: 60px;
 	border: 0;
+	
 }
 
 
@@ -1109,6 +1120,7 @@ color: #AEB8D0;
 
 
 
+
 @media screen and (min-width: 1800px) {
 	.desktop__body{
 		margin-left: 100px;
@@ -1145,22 +1157,39 @@ color: #AEB8D0;
 	.logotypes__item {
 		margin-left: 20px;
 	}
-	.header{		
-		width: 90%;
-		margin: 0 auto;			
+	
+	.desktop__text{
+		width: 50%;
+		margin-left: 50px;
 	}
+	.email__text {
+		width: 40%;
+	}
+	.email {
+		padding-bottom: 50px;
+	}
+	.header{
+		
+		width: 90%;
+		margin: 0 auto;
+		
+		
+	}
+
+
 	body.lock{
 		overflow: hidden;
-	}	
+	}
+	
 		.header__burger{
 			display: block;
 			position: relative;
 			width: 30px;
 			height: 20px;			
 			margin-left: 50px;
-			z-index: 999;			
+			z-index: 999;
+			
 		}
-	
 		.header__burger:before,
 		.header__burger:after
 		{
@@ -1202,6 +1231,7 @@ color: #AEB8D0;
 			transition: all 0.5s ease 0s;
 			overflow: auto;
 			z-index: 9999;
+			
 			
 		} 
 		.header__nav.active {
@@ -1253,14 +1283,6 @@ color: #AEB8D0;
 	.header__nav.active {
 		padding-left: 0;
 	}
-	
-	
-	.main{
-		height: 70vh;
-	}
-	
-	.desktop__text {
-		text-align: center;
 }
 
 @media screen and (max-width: 720px) {
@@ -1358,9 +1380,7 @@ color: #AEB8D0;
 
 @media screen and (max-width: 550px) {
 	.header__burger{
-		margin-right: -20px;
-	}
-	
+		margin-right: -20px;}
 		.desktop__body {
 			padding-top: 80px;
 		}
@@ -1383,11 +1403,12 @@ color: #AEB8D0;
 			width: 70%;
 		}
 		.main__back {
-			margin-left: -20px;
+			margin-left: -50px;
 		}
+		
 	}
 
-	@media screen and (max-width: 375px) {
+	@media screen and (max-width: 426px) {
 		.desktop__text {
 			margin: 0 auto;
 			
@@ -1400,6 +1421,7 @@ color: #AEB8D0;
 		.desktop__btn {
 			margin-right: 0;
 			margin-bottom: 10px;
+			margin-top: -20px;
 		}
 		.main__text {
 			width: 90%;
@@ -1430,7 +1452,7 @@ color: #AEB8D0;
 			padding: 12px 6px;
 			border-top-left-radius: 2px;
 			border-bottom-left-radius: 2px;
-			margin-top: 20px;
+			margin-top: 10px;
 		}
 		.desktop__text{
 			text-align: center;
@@ -1444,9 +1466,10 @@ color: #AEB8D0;
 		
 	}
 
-@-moz-document url-prefix() {
+
+	@-moz-document url-prefix() {
 	.slider .slick-dots button {
 		height: 8px;
 	}
 
-}
+} 
