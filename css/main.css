@@ -1264,6 +1264,14 @@ color: #AEB8D0;
 	.header__nav.active {
 		padding-left: 0;
 	}
+	
+	
+	.main{
+		height: 75vh;
+	}
+	
+	.desktop__text {
+		text-align: center;
 }
 
 @media screen and (max-width: 720px) {
