@@ -1,6 +1,6 @@
 
 html, body{
-	scroll-behavior: smooth;
+	/* scroll-behavior: smooth; */
 	}
 
 body{
@@ -40,6 +40,19 @@ ul, li {
 	
 	
 }
+
+.scrollup{
+	width:40px;
+	height:40px;
+	opacity:0.3;
+	position:fixed;
+	bottom:50px;
+	right:100px;
+	display:none;
+	text-indent:-9999px;
+	background: url('../img/icon_top.png') no-repeat;
+	z-index: 99;
+	}
 
 /* ___________________________________________________________________ */
 
@@ -1288,6 +1301,16 @@ color: #AEB8D0;
 	.header__logo {
 		margin-left: -15px;
 	}
+
+	.scrollup{
+		width:40px;
+		height:40px;
+		opacity:0.3;
+		position:fixed;
+		bottom:35px;
+		right:35px;
+		
+		}
 }
 
 @media screen and (max-width: 720px) {
