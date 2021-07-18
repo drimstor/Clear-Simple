@@ -1311,9 +1311,8 @@ color: #AEB8D0;
 		right:35px;
 		
 		}
-}
 
-@media screen and (max-width: 720px) {
+
 	.logotypes__body {
 		flex-direction: column;
 		padding-top: 10px;
