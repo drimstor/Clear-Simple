@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+// Слайдер
+
 	$('.slider').slick({
 		arrows:true,
 		dots:true,
@@ -22,6 +25,9 @@ $(document).ready(function(){
 			}
 		]
 	});
+
+// Аккордион
+
 	const accordion = document.getElementsByClassName('contentBx');
 	for (i = 0; i < accordion.length; i++){
 		accordion[i].addEventListener('click', function(){
@@ -30,7 +36,7 @@ $(document).ready(function(){
 	}
 
 
-
+// Меню бургер
 
   $('.header__burger').click(function(event) {
      $('.header__burger,.header__nav').toggleClass('active');
@@ -41,6 +47,32 @@ $(document).ready(function(){
       $('.header__burger,.header__nav').removeClass('active');
 		$('body').removeClass('lock');
     })
+
+// Плавная прокрутка
+
+	 $('a').click(function() {
+      var elementClick = $(this).attr('href')
+      var destination = $(elementClick).offset().top;
+      jQuery('html:not(:animated),body:not(:animated)').animate({
+         scrollTop: destination
+      }, 800);
+      return false;
+    })
+
+// Кнопка наверх
+
+	 $(window).scroll(function(){
+		if ($(this).scrollTop() > 200) {
+		$('.scrollup').fadeIn();
+		} else {
+		$('.scrollup').fadeOut();
+		}
+		});
+		 
+		$('.scrollup').click(function(){
+		$("html, body").animate({ scrollTop: 0 }, 800);
+		return false;
+		});
 
 
 
