@@ -1244,6 +1244,14 @@ color: #AEB8D0;
 	
 }
 
+@media screen and (orientation:landscape) {
+
+.main {
+	    height: 650px;
+	}
+}
+
+
 
 @media screen and (max-width: 991px) {
 	.logotypes__body {
@@ -1611,4 +1619,4 @@ color: #AEB8D0;
 		height: 8px;
 	}
 
-	} 
+} 
