@@ -1261,14 +1261,16 @@ color: #AEB8D0;
 	.header__icons {
 		display: none;
 	}
+	.main__back{
+	margin-left: -70px;
+	}
 }
 
 
 @media screen and (max-width: 769px) {
 	.main__back{
-	margin-left: -50px;
-	margin-top: -170px;
-	}
+		display: none;
+		}
 	
 	.main {
 	    height: 650px;
