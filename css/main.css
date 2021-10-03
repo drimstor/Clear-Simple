@@ -1259,9 +1259,11 @@ color: #AEB8D0;
 @media screen and (max-width: 769px) {
 	.main__back{
 	margin-left: -50px;
+	margin-top: -220px;
 	}
+	
 	.main {
-	    height: 85vh;
+	    height: 650px;
 	}
 	.logotypes__body {
 		margin-left: -50px;
@@ -1452,9 +1454,7 @@ color: #AEB8D0;
 		
 	}
 	
-	.main__subtitle {
-		width: auto;
-	}
+	
 	.email__body {
 		flex-direction: column;
 	}
@@ -1508,8 +1508,15 @@ color: #AEB8D0;
 }
 
 @media screen and (max-width: 550px) {
-	.header__burger{
-		margin-right: -20px;}
+		
+		.main__subtitle {
+		width: auto;
+		}
+
+		.header__burger{
+		margin-right: -20px;
+		}
+
 		.desktop__body {
 			padding-top: 80px;
 		}
@@ -1604,4 +1611,4 @@ color: #AEB8D0;
 		height: 8px;
 	}
 
-} 
+	} 
