@@ -1261,7 +1261,7 @@ color: #AEB8D0;
 	margin-left: -50px;
 	}
 	.main {
-	    height: 83vh;
+	    height: 85vh;
 	}
 	.logotypes__body {
 		margin-left: -50px;
@@ -1286,6 +1286,9 @@ color: #AEB8D0;
 		margin: 0 auto;
 	}
 
+.slider .slick-dots{
+		visibility: hidden;
+	}
 
 	body.lock{
 		overflow: hidden;
@@ -1602,17 +1605,3 @@ color: #AEB8D0;
 	}
 
 } 
-
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2),
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2),
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3),
-@media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3),
-@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio : 2),
-@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio : 3),
-@media only screen and (min-device-width: 428px) and (max-device-height: 926px) and (-webkit-device-pixel-ratio : 3) {
-	.slider .slick-dots {
-		visibility: hidden;
-	}
-	
-}
