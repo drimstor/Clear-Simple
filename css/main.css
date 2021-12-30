@@ -433,13 +433,16 @@ font-size: 9px;}
 }
 
 .about__bg{
-	width: 80%;
+	width: 100%;
 	position: absolute;	
 	background: url(../img/clouds2.png) no-repeat center top;	
 	background-size: contain;
 	height: 100%;
 	margin: 0 auto;
 	z-index: -1;
+
+	left: 0;
+	top: 0;
 }
 
 .about__title {
